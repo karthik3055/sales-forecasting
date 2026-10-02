@@ -1,64 +1,92 @@
 # Sales Forecasting with Time Series Analysis
 
-A MySQL project for practicing SQL and basic time series analysis.
+A MySQL project focused on sales analysis, time-based reporting, and SQL forecasting techniques.
 
-## Project Overview
+## About
 
-This project uses customer, category, product, and sales data to practice SQL from basic queries to forecasting-related analysis.
+This project uses a relational sales database to analyze customers, products, categories, and sales transactions. It progresses from fundamental SQL queries to joins, aggregations, window functions, database objects, and time series forecasting.
 
-## Database
+The project is designed to demonstrate practical SQL analysis using a single MySQL workflow.
 
-**Database:** SalesForecastDB
+## What the Project Covers
 
-### Tables
-
-- Customers
-- Categories
-- Products
-- Sales
-- SalesLog
-
-## SQL Topics
-
-- SELECT, WHERE, AND, OR
-- LIKE, IN, BETWEEN
-- ORDER BY, DISTINCT, aliases
-- COUNT, SUM, AVG, MAX, MIN
-- GROUP BY and HAVING
-- INNER JOIN and LEFT JOIN
-- Daily, monthly, quarterly and yearly sales
+- Database and table creation
+- Customer, category, product, and sales data
+- Filtering and sorting
+- Pattern matching with `LIKE`
+- `IN` and `BETWEEN`
+- Aggregations with `COUNT`, `SUM`, `AVG`, `MAX`, and `MIN`
+- `GROUP BY` and `HAVING`
+- `INNER JOIN` and `LEFT JOIN`
+- Daily, monthly, quarterly, and yearly sales analysis
 - Cumulative sales
-- Moving average
+- Moving averages
 - Subqueries
-- ROW_NUMBER()
-- LAG()
+- `ROW_NUMBER()`
+- `LAG()`
 - Running totals
 - Views
 - Stored procedures
 - Triggers
 - Indexes
-- 3-month moving average forecast
-- Monthly sales growth
+- Three-month moving average forecasting
+- Monthly sales growth analysis
+
+## Database
+
+**Database:** `SalesForecastDB`
+
+### Tables
+
+- `Customers`
+- `Categories`
+- `Products`
+- `Sales`
+- `SalesLog`
 
 ## Project Structure
 
 ```text
 sales-forecasting/
+├── data/
+│   └── sales_data.csv
 ├── sql/
+│   ├── schema.sql
+│   ├── analysis.sql
 │   └── sales_forecasting.sql
 └── README.md
 ```
 
+## SQL Files
+
+### `schema.sql`
+
+Contains the database table definitions.
+
+### `analysis.sql`
+
+Contains focused SQL analysis queries for the sales dataset.
+
+### `sales_forecasting.sql`
+
+Contains the complete SQL workflow, including database setup, sample data, analysis, time series queries, views, stored procedures, triggers, indexes, and forecasting queries.
+
+## Forecasting Approach
+
+The project uses SQL-based time series techniques rather than a separate machine-learning application.
+
+The main forecasting approach is a **three-month moving average**, using recent monthly sales values to calculate the next forecast value.
+
+Monthly sales growth is also calculated to examine changes between consecutive months.
+
 ## How to Run
 
 1. Install MySQL.
-2. Open MySQL Workbench.
+2. Open MySQL Workbench or another MySQL client.
 3. Open `sql/sales_forecasting.sql`.
 4. Run the script.
-5. Run the queries individually to study the results.
+5. Execute the analysis and forecasting queries to inspect the results.
 
-## Learning Goal
+## Project Focus
 
-This project focuses on SQL analysis and time series forecasting.
-
-**Focus:** SQL · MySQL · Time Series Analysis
+**SQL · MySQL · Data Analysis · Time Series Analysis · Forecasting · Window Functions**
