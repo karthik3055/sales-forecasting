@@ -1,0 +1,37 @@
+sale_id,order_date,product_name,category,region,quantity,unit_price
+1,2025-01-05,Wireless Mouse,Accessories,North,18,24.50
+2,2025-01-09,Mechanical Keyboard,Accessories,South,9,68.00
+3,2025-01-15,USB-C Hub,Accessories,East,14,42.00
+4,2025-01-22,Monitor,Displays,West,6,185.00
+5,2025-02-03,Wireless Mouse,Accessories,South,22,24.50
+6,2025-02-11,Mechanical Keyboard,Accessories,North,11,68.00
+7,2025-02-17,USB-C Hub,Accessories,West,18,42.00
+8,2025-02-24,Monitor,Displays,East,7,185.00
+9,2025-03-04,Wireless Mouse,Accessories,East,26,24.50
+10,2025-03-10,Mechanical Keyboard,Accessories,West,13,68.00
+11,2025-03-18,USB-C Hub,Accessories,South,20,42.00
+12,2025-03-25,Monitor,Displays,North,8,185.00
+13,2025-04-02,Wireless Mouse,Accessories,West,29,24.50
+14,2025-04-08,Mechanical Keyboard,Accessories,East,15,68.00
+15,2025-04-16,USB-C Hub,Accessories,North,23,42.00
+16,2025-04-27,Monitor,Displays,South,9,185.00
+17,2025-05-05,Wireless Mouse,Accessories,North,31,24.50
+18,2025-05-12,Mechanical Keyboard,Accessories,South,17,68.00
+19,2025-05-19,USB-C Hub,Accessories,East,26,42.00
+20,2025-05-28,Monitor,Displays,West,10,185.00
+21,2025-06-03,Wireless Mouse,Accessories,South,34,24.50
+22,2025-06-11,Mechanical Keyboard,Accessories,North,19,68.00
+23,2025-06-18,USB-C Hub,Accessories,West,29,42.00
+24,2025-06-26,Monitor,Displays,East,11,185.00
+25,2025-07-04,Wireless Mouse,Accessories,East,37,24.50
+26,2025-07-10,Mechanical Keyboard,Accessories,West,21,68.00
+27,2025-07-17,USB-C Hub,Accessories,South,32,42.00
+28,2025-07-25,Monitor,Displays,North,12,185.00
+29,2025-08-06,Wireless Mouse,Accessories,West,40,24.50
+30,2025-08-13,Mechanical Keyboard,Accessories,East,23,68.00
+31,2025-08-20,USB-C Hub,Accessories,North,35,42.00
+32,2025-08-27,Monitor,Displays,South,13,185.00
+33,2025-09-05,Wireless Mouse,Accessories,North,43,24.50
+34,2025-09-12,Mechanical Keyboard,Accessories,South,25,68.00
+35,2025-09-19,USB-C Hub,Accessories,East,38,42.00
+36,2025-09-28,Monitor,Displays,West,14,185.00
