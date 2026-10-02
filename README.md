@@ -4,9 +4,11 @@ A MySQL project focused on sales analysis, time-based reporting, and SQL forecas
 
 ## About
 
-This project uses a relational sales database to analyze customers, products, categories, and sales transactions. It progresses from fundamental SQL queries to joins, aggregations, window functions, database objects, and time series forecasting.
+Sales Forecasting with Time Series Analysis is a SQL-focused data analysis project built with MySQL. It models customers, product categories, products, sales transactions, and sales activity, then uses SQL to turn that data into business-oriented sales insights.
 
-The project is designed to demonstrate practical SQL analysis using a single MySQL workflow.
+The project demonstrates how SQL can be used beyond basic CRUD queries, including relational analysis, aggregation, time-based reporting, window functions, database objects, and forecasting calculations.
+
+The forecasting section uses historical monthly sales to calculate a three-month moving average and monthly sales growth. This keeps the forecasting workflow inside SQL and makes the analysis easy to inspect and reproduce.
 
 ## What the Project Covers
 
